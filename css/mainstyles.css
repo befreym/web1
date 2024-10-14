@@ -1,0 +1,32 @@
+h1{
+   
+}
+p{
+    background-color: blue;
+    color: white;
+}
+body{
+    width: 70%;
+    margin: auto;
+  
+}
+main{
+    background-color: aqua;
+    margin: auto;
+    border: 2px solid black;
+    padding: 5px;
+}
+.beffstyles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    color: yellow;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
