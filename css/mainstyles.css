@@ -1,10 +1,10 @@
 h1{
    
 }
-p{
+/*p{
     background-color: blue;
     color: white;
-}
+}*/
 body{
     width: 70%;
     margin: auto;
@@ -21,7 +21,7 @@ main{
     background-color: green;
     color: yellow;
 }
-ul{
+/*ul{
     text-decoration: none;
 }
 li{
@@ -29,4 +29,36 @@ li{
 }
 a{
     text-decoration: none;
+}*/
+.sectionb{
+    width: 50%;
+    background-color: rgb(197, 117, 11);
+}
+#h1styles{
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*Nav Menu styles*/
+ul{
+    
+}
+ul>li{
+    list-style: none;
+    display: inline;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    margin-left: 4px;
+    padding: 5px;
+    
+}
+ul>li>a:hover{
+    color:green;
+    background-color: white;
+}
+.selected{
+    color: green;
+    background-color: rgb(228, 228, 3);
 }
